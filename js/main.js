@@ -12,7 +12,18 @@ createApp({
     data () {
         return {
             message: "Hello Vue!!",
-            image: "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
+            image: "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+            messageStyle: {
+                color: 'blue',
+                fontSize: '40px',
+                textAlign: 'center'
+            },
+            imageStyle: {
+                display: 'block',
+                margin: '0 auto',
+                width: '50%',
+                border: '2px solid #000'
+            }
         }
     }
 }).mount('#app');
